@@ -1,21 +1,20 @@
 {
-  "name": "basic_chat_application",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "openai": "^5.5.1"
-  },
-  "devDependencies": {
-    "@types/node": "^24.0.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  }
+	"name": "basic_chat_application",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node -r ts-node/register --env-file=.env src/index.ts"
+	},
+	"keywords": [],
+	"author": "Narayan Maaity",
+	"license": "ISC",
+	"dependencies": {
+		"openai": "^5.5.1"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
 }
