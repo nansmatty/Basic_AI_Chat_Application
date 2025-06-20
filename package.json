@@ -4,13 +4,14 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node -r ts-node/register --env-file=.env src/index.ts"
+		"start": "node -r ts-node/register --env-file=.env src/basic_chat/index.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
 	"license": "ISC",
 	"dependencies": {
-		"openai": "^5.5.1"
+		"openai": "^5.5.1",
+		"tiktoken": "^1.0.21"
 	},
 	"devDependencies": {
 		"@types/node": "^24.0.3",
