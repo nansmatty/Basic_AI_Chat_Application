@@ -9,7 +9,10 @@
 		"flight:tools": "node -r ts-node/register --env-file=.env src/tools/flightAssistant.ts",
 		"image:generate": "node -r ts-node/register --env-file=.env src/images_generate/images.ts",
 		"image:variation": "node -r ts-node/register --env-file=.env src/images_generate/variation.ts",
-		"image:editing": "node -r ts-node/register --env-file=.env src/images_generate/editing.ts"
+		"image:editing": "node -r ts-node/register --env-file=.env src/images_generate/editing.ts",
+		"audio:transcribe": "node -r ts-node/register --env-file=.env src/speech_generate/audio.ts",
+		"audio:translate": "node -r ts-node/register --env-file=.env src/speech_generate/translation.ts",
+		"audio:tts": "node -r ts-node/register --env-file=.env src/speech_generate/textToSpeech.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
