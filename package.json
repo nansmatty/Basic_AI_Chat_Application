@@ -7,7 +7,8 @@
 		"start": "node -r ts-node/register --env-file=.env src/basic_chat/index.ts",
 		"tools": "node -r ts-node/register --env-file=.env src/tools/index.ts",
 		"flight:tools": "node -r ts-node/register --env-file=.env src/tools/flightAssistant.ts",
-		"image:generate": "node -r ts-node/register --env-file=.env src/others/images.ts"
+		"image:generate": "node -r ts-node/register --env-file=.env src/others/images.ts",
+		"image:variation": "node -r ts-node/register --env-file=.env src/others/variation.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
