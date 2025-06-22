@@ -22,7 +22,7 @@ async function generateFreeLocalImage() {
 		model: 'dall-e-3',
 		style: 'vivid', // This option is only available in DALL-E-3 Model
 		quality: 'hd', // This options has also vary based on model choice
-		size: '1792x1024', // This options has also vary based on model choice
+		size: '1024x1024', // This options has also vary based on model choice
 		n: 1, // number of images to generate
 		response_format: 'b64_json',
 	});
@@ -30,7 +30,7 @@ async function generateFreeLocalImage() {
 	const rawImage = response.data && response.data[0]?.b64_json;
 
 	if (rawImage) {
-		writeFileSync('dinasour.jpeg', Buffer.from(rawImage, 'base64'));
+		writeFileSync('dinasour.png', Buffer.from(rawImage, 'base64'));
 	}
 }
 
