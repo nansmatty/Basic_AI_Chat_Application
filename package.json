@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node -r ts-node/register --env-file=.env src/basic_chat/index.ts",
-		"tools": "node -r ts-node/register --env-file=.env src/tools/index.ts"
+		"tools": "node -r ts-node/register --env-file=.env src/tools/index.ts",
+		"flight:tools": "node -r ts-node/register --env-file=.env src/tools/flightAssistant.ts"
 	},
 	"keywords": [],
 	"author": "Narayan Maaity",
