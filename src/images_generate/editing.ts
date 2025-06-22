@@ -7,7 +7,7 @@ const openai = new OpenAI();
 
 async function generateImageEdit() {
 	try {
-		// Although it generate an edit image need to check and pass the same image as mask and variation and mask one needs to be edited a specific part
+		// Although it generate an edit image need to check and pass the same image as mask and variation and mask one needs to be edited a specific part but it will cost us so try with caution
 
 		const image = await toFile(createReadStream('dinasourVariation.png'), 'dinasourVariation.png', {
 			type: 'image/png',
